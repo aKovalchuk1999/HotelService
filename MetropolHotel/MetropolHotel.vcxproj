@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7EFA8ADD-BEFE-47E2-A6B6-873D187EBED1}</ProjectGuid>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>MetropolHotel</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CLRSupport>Pure</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CLRSupport>Pure</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="*Microsoft.VisualBasic, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="*System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <Reference Include="*System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="*System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=10.0.4504.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\lib\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs" />
+    <Reference Include="MySql.Data" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.ico" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="addBron.cpp" />
+    <ClCompile Include="addClient.cpp" />
+    <ClCompile Include="addRequest.cpp" />
+    <ClCompile Include="addRequest1.cpp" />
+    <ClCompile Include="addWork.cpp" />
+    <ClCompile Include="AssemblyInfo.cpp" />
+    <ClCompile Include="clientPayments.cpp" />
+    <ClCompile Include="ClientPosluga.cpp" />
+    <ClCompile Include="ClientsList.cpp" />
+    <ClCompile Include="debtors.cpp" />
+    <ClCompile Include="eatType.cpp" />
+    <ClCompile Include="LogPassword.cpp" />
+    <ClCompile Include="mainForm.cpp" />
+    <ClCompile Include="mainMenu.cpp" />
+    <ClCompile Include="MetropolHotel.cpp" />
+    <ClCompile Include="nomerCleaning.cpp" />
+    <ClCompile Include="nomerType.cpp" />
+    <ClCompile Include="nomerWork.cpp" />
+    <ClCompile Include="paymentArxiv.cpp" />
+    <ClCompile Include="personal.cpp" />
+    <ClCompile Include="posluga.cpp" />
+    <ClCompile Include="poslugaForClient.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="addBron.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="addClient.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="addRequest.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="addRequest1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="addWork.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="clientPayments.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ClientPosluga.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ClientsList.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="debtors.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="eatType.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="LogPassword.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="mainForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="mainMenu.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="nomerCleaning.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="nomerType.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="nomerWork.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="paymentArxiv.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="personal.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="posluga.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="poslugaForClient.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="addBron.resx">
+      <DependentUpon>addBron.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addClient.resx">
+      <DependentUpon>addClient.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addRequest.resx">
+      <DependentUpon>addRequest.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addRequest1.resx">
+      <DependentUpon>addRequest1.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addWork.resx">
+      <DependentUpon>addWork.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clientPayments.resx">
+      <DependentUpon>clientPayments.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientPosluga.resx">
+      <DependentUpon>ClientPosluga.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientsList.resx">
+      <DependentUpon>ClientsList.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="debtors.resx">
+      <DependentUpon>debtors.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="eatType.resx">
+      <DependentUpon>eatType.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogPassword.resx">
+      <DependentUpon>LogPassword.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainForm.resx">
+      <DependentUpon>mainForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainMenu.resx">
+      <DependentUpon>mainMenu.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nomerCleaning.resx">
+      <DependentUpon>nomerCleaning.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nomerType.resx">
+      <DependentUpon>nomerType.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nomerWork.resx">
+      <DependentUpon>nomerWork.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="paymentArxiv.resx">
+      <DependentUpon>paymentArxiv.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="personal.resx">
+      <DependentUpon>personal.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="posluga.resx">
+      <DependentUpon>posluga.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="poslugaForClient.resx">
+      <DependentUpon>poslugaForClient.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

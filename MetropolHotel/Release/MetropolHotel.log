@@ -1,0 +1,55 @@
+﻿Построение начато 30.10.2017 19:46:33.
+     1>Проект "C:\Users\User\Documents\Visual Studio 2010\Projects\MetropolHotel\MetropolHotel\MetropolHotel.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Release\MetropolHotel.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       GenerateTargetFrameworkMonikerAttribute:
+       Целевой объект "GenerateTargetFrameworkMonikerAttribute" пропускается, так как все выходные файлы актуальны по отношению к входным.
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\MetropolHotel.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /FU"C:\Users\User\Documents\Visual Studio 2010\Projects\MetropolHotel\lib\Microsoft.Office.Interop.Excel.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Microsoft.VisualBasic.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\VBPowerPacks\v10.0\Microsoft.VisualBasic.PowerPacks.Vs.dll" /FU"C:\Program Files\MySQL\MySQL Connector Net 6.9.9\Assemblies\v4.0\MySql.Data.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt MetropolHotel.cpp mainForm.cpp mainMenu.cpp /clr:nostdlib 
+         MetropolHotel.cpp
+         mainForm.cpp
+         mainMenu.cpp
+         Создание кода...
+         Для всех выходных данных обновления не требуется.
+       CoreResGen:
+         Отсутствуют ресурсы, устаревшие по отношению к файлам своих источников. Пропуск формирования ресурсов.
+       ResourceCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\Documents\Visual Studio 2010\Projects\MetropolHotel\Release\MetropolHotel.exe" /INCREMENTAL:NO /NOLOGO /ASSEMBLYRESOURCE:Release\MetropolHotel.addBron.resources /ASSEMBLYRESOURCE:Release\MetropolHotel.addClient.resources /ASSEMBLYRESOURCE:Release\MetropolHotel.addRequest.resources /ASSEMBLYRESOURCE:Release\MetropolHotel.addRequest1.resources /ASSEMBLYRESOURCE:Release\MetropolHotel.addWork.resources /ASSEMBLYRESOURCE:Release\MetropolHotel.clientPayments.resources /ASSEMBLYRESOURCE:Release\MetropolHotel.ClientPosluga.resources /ASSEMBLYRESOURCE:Release\MetropolHotel.ClientsList.resources /ASSEMBLYRESOURCE:Release\MetropolHotel.debtors.resources /ASSEMBLYRESOURCE:Release\MetropolHotel.eatType.resources /ASSEMBLYRESOURCE:Release\MetropolHotel.LogPassword.resources /ASSEMBLYRESOURCE:Release\MetropolHotel.mainForm.resources /ASSEMBLYRESOURCE:Release\MetropolHotel.mainMenu.resources /ASSEMBLYRESOURCE:Release\MetropolHotel.nomerCleaning.resources /ASSEMBLYRESOURCE:Release\MetropolHotel.nomerType.resources /ASSEMBLYRESOURCE:Release\MetropolHotel.nomerWork.resources /ASSEMBLYRESOURCE:Release\MetropolHotel.paymentArxiv.resources /ASSEMBLYRESOURCE:Release\MetropolHotel.personal.resources /ASSEMBLYRESOURCE:Release\MetropolHotel.posluga.resources /ASSEMBLYRESOURCE:Release\MetropolHotel.poslugaForClient.resources /MANIFEST /ManifestFile:"Release\MetropolHotel.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\User\Documents\Visual Studio 2010\Projects\MetropolHotel\Release\MetropolHotel.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Release\app.res
+         Release\addBron.obj
+         Release\addClient.obj
+         Release\addRequest.obj
+         Release\addRequest1.obj
+         Release\addWork.obj
+         Release\AssemblyInfo.obj
+         Release\clientPayments.obj
+         Release\ClientPosluga.obj
+         Release\ClientsList.obj
+         Release\debtors.obj
+         Release\eatType.obj
+         Release\LogPassword.obj
+         Release\mainForm.obj
+         Release\mainMenu.obj
+         Release\MetropolHotel.obj
+         Release\nomerCleaning.obj
+         Release\nomerType.obj
+         Release\nomerWork.obj
+         Release\paymentArxiv.obj
+         Release\personal.obj
+         Release\posluga.obj
+         Release\poslugaForClient.obj
+         Release\stdafx.obj
+         "Release\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         MetropolHotel.vcxproj -> C:\Users\User\Documents\Visual Studio 2010\Projects\MetropolHotel\Release\MetropolHotel.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\User\Documents\Visual Studio 2010\Projects\MetropolHotel\Release\MetropolHotel.exe;#1" /manifest Release\MetropolHotel.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Release\MetropolHotel.unsuccessfulbuild" удаляется.
+         Обращение к "Release\MetropolHotel.lastbuildstate".
+     1>Построение проекта "C:\Users\User\Documents\Visual Studio 2010\Projects\MetropolHotel\MetropolHotel\MetropolHotel.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:06.50
